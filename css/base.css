@@ -1,0 +1,174 @@
+#all{
+  width: 320px;
+}
+
+/*head*/
+#header{
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+}
+
+.l_head{
+  margin-left: 10px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.r_head{
+  line-height: 50px;
+  float: right;
+  font-size: 15px;
+  background-color: #84ed4c;
+  border-radius: 7px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.clear{
+  clear: both;
+}
+
+header{
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+
+/*gnav*/
+
+.gnav{
+  background-color: #84ed4c;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.gnav ul{
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+}
+
+.gnav ul li{
+  position: relative;
+  float: left;
+  width: 16%;
+  background-color: #c6ff8e;
+  border-radius: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#today{
+  background-color: #84ed4c;
+}
+
+.gnav ul li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+
+nav{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*mainT*/
+
+main{
+  width: 100%;
+}
+
+.ch_manu{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ch_manu div{
+  float: left;
+}
+
+.manu_pro{
+  width: 38%;
+  height:80px;
+  font-size:15px;
+  font-weight: bold;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #c6ff8e;
+  border-top: 7px solid;
+  border-color: #84ed4c;
+}
+
+.manu_img{
+  width: 58%;
+  height: 100px;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #c6ff8e;
+}
+
+/*mainB*/
+.nch_manu{
+  width: 100%;
+  background-color: #c6ff8e;
+  border-top: 7px solid #84ed4c;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nch_manu table{
+  width: 100%;
+}
+
+.nch_manu table tr{
+  width: 100%;
+}
+
+.nch_manu table tr th{
+  width: 33%;
+}
+
+.nch_manu table tr td{
+  width: 33;
+  text-align: center;
+  font-size: 14px;
+}
+
+/*boxes*/
+.box_outer{
+  overflow: hidden;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.boxes_inner{
+  float: left;
+  width: 29.3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 11px;
+  text-align: center;
+  background-color: #c6ff8e;
+  border-top: 7px solid #84ed4c;
+}
+
+
+
+
+/*footer*/
+footer{
+  width: 100%;
+  background-color: #84ed4c;
+  text-align: center;
+  font-size: 10px;
+}
